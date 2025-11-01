@@ -1,0 +1,47 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+.env
+env/
+venv/
+
+# Dataset and large binary artifacts (do not track large folders by default)
+train/
+valid/
+test/
+data/
+
+# Model files (use Git LFS instead if you want to track these)
+*.keras
+*.h5
+*.ckpt
+model_backups/
+
+# Archives & backups
+*.zip
+*.tar.gz
+
+# OneDrive temp files
+~$*
+*.lnk
+
+# Logs
+*.log
+
+# Notebook outputs
+output/
+
+# Keep README, scripts, and notebooks but exclude large datasets and models
